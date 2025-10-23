@@ -16,12 +16,10 @@ def letras_disponiveis(letras):
     for n in ascii_lowercase:
         if n not in letras:
             letras_para_chutar.append(n)
-    print(letras_para_chutar)
+    return letras_para_chutar
 
 
 disponiveis = letras_disponiveis(letras)
 
-
-
-
+print(disponiveis)
 
